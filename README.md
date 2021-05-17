@@ -1,5 +1,5 @@
 # Projeto Site de Classificados
-**Projeto realizado no curso de PHP do Zero ao Profissional da B7Web**
+**Projeto realizado no curso de PHP do Zero ao Profissional da B7Web**<br>
 O escopo do projeto consiste em desenvolver um site de classificados, que possibilite o cadastro de novos
 anúncios caso o usuário esteja cadastrado e a visualização de todos os anúncios na tela principal.
 
