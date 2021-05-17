@@ -46,7 +46,7 @@ $categorias = $c->getLista();
 					<select id="categoria" name="filtros[categoria]" class="form-control">
 						<option></option>
 						<?php foreach($categorias as $cat): ?>
-						<option value="<?php echo $cat['id']; ?>" <?php echo ($cat['id']==$filtros['categoria'])?'selected="selected"':''; ?>><?php echo utf8_encode($cat['nome']); ?></option>
+						<option value="<?php echo $cat['id']; ?>" <?php echo ($cat['id']==$filtros['categoria'])?'selected="selected"':''; ?>><?php echo $cat['nome']; ?></option>
 						<?php endforeach; ?>
 					</select>
 				</div>
